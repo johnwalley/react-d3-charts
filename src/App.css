@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+}
+
+.chart-container {
+  background-color: #fcfcfc;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+.line-container {
+  flex: 2 0 0; 
+}
+
+.bar-container {
+  flex: 1 0 0;
+}

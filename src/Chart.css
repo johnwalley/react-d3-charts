@@ -1,0 +1,20 @@
+.Chart {
+  width: 100%;
+  height: 100%;
+}
+
+.Chart text {
+  font-size: 12px;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar.selected{
+  fill: darkslateblue;
+}
+
+.axis--x path {
+  display: none;
+}
